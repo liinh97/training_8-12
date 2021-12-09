@@ -1,0 +1,25 @@
+@import '../variables.scss';
+
+.login-form{
+    @include marginPosition;
+    @include scale(30%, 60%, $skyMoment, true);
+    border-radius: 10px;
+    padding: 10px 30px;
+
+    .login-form_title{
+        @include text(3rem, $draculaOrchid, 700, true);
+        text-align: center;
+        letter-spacing: .4rem;
+        margin: 50px 0 30px;
+    }
+
+    label{
+        @include text(2rem, $white, 700);
+    }
+
+    .btn{
+        @include marginPosition(80%, 50%);
+        @include text(1rem, $white, 700);
+        width: 35%;
+    }
+}

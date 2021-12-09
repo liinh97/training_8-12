@@ -1,0 +1,146 @@
+@-webkit-keyframes showDown {
+  0% {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+  100% {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+  }
+}
+@keyframes showDown {
+  0% {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+  100% {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+  }
+}
+@-webkit-keyframes showVisible {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes showVisible {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes hidePopup {
+  0% {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+}
+@keyframes hidePopup {
+  0% {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+}
+@-webkit-keyframes rotation {
+  0% {
+    transform: rotate(-160deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(-160deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 60%;
+  background: #a29bfe;
+  box-shadow: 1px 1px 10px grey;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+.login-form .login-form_title {
+  font-size: 3rem;
+  color: #2d3436;
+  font-weight: 700;
+  cursor: default;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  margin: 50px 0 30px;
+}
+.login-form label {
+  font-size: 2rem;
+  color: #f5f6fa;
+  font-weight: 700;
+  cursor: default;
+  text-align: center;
+}
+.login-form .btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 1rem;
+  color: #f5f6fa;
+  font-weight: 700;
+  cursor: default;
+  text-align: center;
+  width: 35%;
+}
